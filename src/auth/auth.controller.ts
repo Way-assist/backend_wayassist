@@ -1,7 +1,6 @@
 import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards, Req, SetMetadata, ParseUUIDPipe, Query } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { User } from './entities/user.entity';
-import { ValidRoles } from './interfaces/valid-roles';
 import { Auth, GetUser } from './decorators';
 
 

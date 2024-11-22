@@ -1,4 +1,4 @@
-import { IsDecimal, IsNumber, IsOptional, IsString, MinLength } from "class-validator";
+import {  IsNumber, IsOptional, IsString, MinLength } from "class-validator";
 
 export class CreateFavoriteDto {
     @IsString()

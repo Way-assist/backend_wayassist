@@ -54,7 +54,6 @@ export class AuthService {
       where: { email: profile.email },
       select: {
         email: true,
-        secret: true,
         name: true,
         birthday: true,
         phone: true,

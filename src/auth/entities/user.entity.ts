@@ -9,8 +9,6 @@ export class User {
     name: string;
     @Column('text')
     lastname: string;
-    @Column('text',{nullable:true})
-    secret: string;
     @Column('text', { unique: true })
     email: string;
     @Column('text', { unique: true,nullable:true })
